@@ -1,0 +1,16 @@
+.comment-card {
+    list-style: none;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.user-title {
+    border-bottom: 1px solid var(--border-color);
+    padding: 1rem;
+    background: #f7f7f7;
+}
+
+.text {
+    padding: 1rem;
+}
