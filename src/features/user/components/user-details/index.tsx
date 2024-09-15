@@ -1,3 +1,12 @@
 export const UserDetails = () => {
-  return <h2>post details</h2>;
+  return <section>
+    <div>
+      <span>Name: </span>
+      <span>User</span>
+    </div>
+    <div>
+      <span>Email: </span>
+      <span>user@example.com</span>
+    </div>
+  </section>;
 };

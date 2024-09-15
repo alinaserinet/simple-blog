@@ -40,6 +40,9 @@
       ],
       "@user": [
         "./src/features/user"
+      ],
+      "@types": [
+        "./src/types"
       ]
     }
   },
