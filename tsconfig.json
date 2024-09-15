@@ -21,7 +21,10 @@
         "./src/*"
       ],
       "@utils": [
-        "./src/utils/index.ts"
+        "./src/libs/utils"
+      ],
+      "@components": [
+        "./src/libs/components"
       ],
       "@post": [
         "./src/features/post"

@@ -1,0 +1,30 @@
+/* button */
+.button{
+    padding: 12px 24px; /* Spacing inside the button */
+    background-color: #007bff; /* Primary blue color */
+    color: #fff; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 16px; /* Comfortable font size */
+    font-family: Arial, sans-serif; /* Ensure a readable font */
+    cursor: pointer; /* Pointer cursor to indicate interactivity */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.button:active {
+    background-color: #004080; /* Even darker blue when clicked */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Decrease shadow on click */
+    transform: translateY(1px); /* Slight downward shift on click */
+}
+
+.button:disabled {
+    background-color: #ccc; /* Gray background for disabled state */
+    cursor: not-allowed; /* Change cursor to indicate non-clickable */
+    box-shadow: none; /* Remove shadow for disabled state */
+}
