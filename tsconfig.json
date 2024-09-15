@@ -35,6 +35,9 @@
       "@post": [
         "./src/features/post"
       ],
+      "@comment": [
+        "./src/features/comment"
+      ],
       "@user": [
         "./src/features/user"
       ]
