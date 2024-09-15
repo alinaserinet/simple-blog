@@ -29,6 +29,9 @@
       "@components": [
         "./src/libs/components"
       ],
+      "@auth": [
+        "./src/features/auth"
+      ],
       "@post": [
         "./src/features/post"
       ],
